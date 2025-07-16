@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nirvanaasti - Welcome</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e9f0f6;
+      color: #222;
+    }
+    .container {
+      max-width: 600px;
+      margin: 4rem auto;
+      background: #fff;
+      padding: 2.5rem 2rem 2rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      color: #1976d2;
+      margin-bottom: 0.5rem;
+    }
+    .brand {
+      font-size: 1.15rem;
+      color: #555;
+    }
+    .intro {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    form {
+      background: #f5f5f5;
+      padding: 1.25rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.4rem;
+      font-weight: 500;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background: #1976d2;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #1252a1;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 0.97rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Nirvanaasti</h1>
+      <div class="brand">All rights reserved under Nirvanaasti</div>
+    </header>
+    <div class="intro">
+      <p>
+        Thank you for visiting Nirvanaasti! This is your go-to destination for inspiration, connection, and growth. If you'd like to connect with me, please use the form below – I look forward to hearing from you!
+      </p>
+    </div>
+    <form action="mailto:manish.ojhaofficial@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+      <button type="submit">Connect with Nirvanaasti</button>
+    </form>
+    <footer>
+      &copy; 2025 Nirvanaasti. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
